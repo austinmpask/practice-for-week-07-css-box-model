@@ -1,55 +1,68 @@
-html, body {
-    /* DO NOT EDIT */
-    font-family: sans-serif;
+html,
+body {
+  /* DO NOT EDIT */
+  font-family: sans-serif;
 }
 
 /* Phase 1 */
 
 #logo {
-    /* DO NOT EDIT */
-    vertical-align: bottom;
+  /* DO NOT EDIT */
+  vertical-align: bottom;
+  margin-bottom: 5px;
 
-    /* Your code here */
+  width: 30px;
+  height: 30px;
 }
 
-
 h1 {
-    /* Your code here */
+  display: inline;
 }
 
 /* Phase 2 */
 
 .box {
-    /* DO NOT EDIT */
-    vertical-align: top;
-
-    /* Your code here */
+  /* DO NOT EDIT */
+  display: inline-block;
+  vertical-align: top;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  padding: 20px;
+  border-style: dotted;
+  border-color: black;
+  border-width: 4px;
+  background-color: rgb(255, 255, 182);
 }
 
 .alternate {
-    /* Your code here */
+  /* Your code here */
+  width: 72px;
 }
 
 /* Phase 3 */
 
 .footer {
-    /* DO NOT EDIT */
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  /* DO NOT EDIT */
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .quote {
-    /* DO NOT EDIT */
-    background-color: lightgray;
-    font-size: larger;
-
-    /* Your code here */
+  /* DO NOT EDIT */
+  background-color: lightgray;
+  font-size: larger;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 40px;
+  /* Your code here */
 }
 
 .attribution {
-    /* DO NOT EDIT */
-    font-style: italic;
-
-    /* Your code here */
+  /* DO NOT EDIT */
+  font-style: italic;
+  display: block;
+  /* Your code here */
 }
